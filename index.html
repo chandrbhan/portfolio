@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="custom.js"></script>
+  <script src="js/typed.min.js"></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">PORTFO<span>LIO</span></div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Intro</a>
+            <a href="#">Skills</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <div class="text">
+       <p>Hello , I am</p> 
+       <h2>Chandrabhan Dubey</h2>
+       <p>And I am a <span id="ani" style="color: #e74c3c;"></span></p>
+       <button class="cbtn">Hire me</button>
+    </div>
+</header>
+
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who i am?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="images/about.jpeg">
+
+            </div>
+
+            <div class="about-right-col">
+                <p id="p-title">
+                    Hello, I'm Chandrabhan & I'm a Developer</p>
+
+                <p>My name is Sheree Townsend, and I’m the marketing director at Wise Technology.
+                     We’re developing some innovative marketing campaigns designed to engage new customers right in the streets of Bloomington.
+                      I’ve been recruiting local businesses that want to get involved in these activities. 
+                    I love chatting with residents around the area and learning more about what they’re looking for from their smart devices.”
+                </p>
+
+                <button class="cbtn">Download CV</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <section id="skills">
+        <div class="section-info">
+             <h1 style="color:white">Skill's</h1>
+            </div>
+            <div class="skills-row">
+                <div class="skills-left-col">
+                    <p> Developer with 8 years of experience in designing and developing user interfaces, 
+                        testing, debugging, and training staff within eCommerce technologies. 
+                        Proven ability in optimizing web functionality that improve data retrieval and workflow efficiencies.
+                    </p>
+                    <button class="cbtn">Read More</button>
+                    </div>
+
+                <div class="skills-right-col"><!--its use to create skill and and her progress percentage-->
+                    <div class="progress-div">
+                        <p>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+
+                    <p>
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="50" max="100"></progress>
+                        <span>50%</span>
+                    </p>
+
+                    <p>
+                        <span>REACT JS</span><br>
+                        <progress value="50" max="100"></progress>
+                        <span>50%</span>
+                    </p>
+
+                    <p>
+                        <span>JAVA</span><br>
+                        <progress value="60" max="100"></progress>
+                        <span>60%</span>
+                    </p>
+                        
+                    </div>
+                </div>
+                </div> 
+
+    </section>
+
+
+    <section id="services">
+        <div class="section-info">
+            <h1> Services</h1>
+            <p>What I do</p>
+
+        </div>
+        <div class="services-row">
+            <div class="services-box">
+                <img src="images/b2.png">
+                <h2>Web Design</h2>
+                <p>Starting with logo design, graphic design, web hosting,
+                     today web designing services can extend up to multimedia presentation,
+                      video shoots, flash design and even online marketing and many others.</p>
+            </div>
+
+            <div class="services-box">
+                <img src="images/b2.png">
+                <h2>Web Development</h2>
+                <p>Starting with logo design, graphic design, web hosting,
+                     today web designing services can extend up to multimedia presentation,
+                      video shoots, flash design and even online marketing and many others.</p>
+            </div>
+
+            <div class="services-box">
+                <img src="images/b2.png">
+                <h2>Apps Development</h2>
+                <p>Starting with logo design, graphic design, web hosting,
+                     today web designing services can extend up to multimedia presentation,
+                      video shoots, flash design and even online marketing and many others.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+            <div class="section-info" style="color: white;">
+                <h1>Get in Touch</h1>
+                <p style="color: black;">We are Avilable</p>
+            
+            </div>
+
+                  
+            <div class="contact-row">
+                <div class="contact-left-col">
+                    <img src="images/b3.png">
+                </div>
+                <div class="contact-right-col">
+                    <form>
+                    <h2>Connect with us</h2>
+                       <input type="text"name="" placeholder="Name">
+                       <input type="email"name="" placeholder="E-mail">
+                       <br>
+                       <textarea cols="40" rows="10" placeholder="Message"></textarea>
+                       <br>
+                       <button class="cbtn">Submit</button>
+                    </form>
+
+                
+                </div>
+            </div>
+    </section>
+
+    <section id="footer">
+        <h2>Developed by Chandrabhan Dubey</h2>
+        <img src="images/icon.png" width="100">
+    </section>
+
+<script>
+    let animate= new Typed('#ani',{
+        strings:["Front End Developer","Web Designer"," HATE MY SELF"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+    });
+</script>
+
+
+
+
+</body>
+</html>
